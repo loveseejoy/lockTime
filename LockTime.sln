@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LokcTimeJob", "LokcTimeJob\LokcTimeJob.csproj", "{33C30C96-A218-4A35-A70F-7329CFEAE332}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockTime.Service", "LockTime.Service\LockTime.Service.csproj", "{5139BDAF-E879-4E3B-8B8E-0C32918B5910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockTime.Common", "LockTime.Common\LockTime.Common.csproj", "{F758A44F-7D2E-4FF6-895E-F7036DD9099D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{33C30C96-A218-4A35-A70F-7329CFEAE332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33C30C96-A218-4A35-A70F-7329CFEAE332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33C30C96-A218-4A35-A70F-7329CFEAE332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5139BDAF-E879-4E3B-8B8E-0C32918B5910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5139BDAF-E879-4E3B-8B8E-0C32918B5910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5139BDAF-E879-4E3B-8B8E-0C32918B5910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5139BDAF-E879-4E3B-8B8E-0C32918B5910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F758A44F-7D2E-4FF6-895E-F7036DD9099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F758A44F-7D2E-4FF6-895E-F7036DD9099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F758A44F-7D2E-4FF6-895E-F7036DD9099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F758A44F-7D2E-4FF6-895E-F7036DD9099D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
