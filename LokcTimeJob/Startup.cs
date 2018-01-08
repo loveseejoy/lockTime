@@ -22,10 +22,10 @@ namespace LokcTimeJob
             app.UseHangfireDashboard();
 
 
-            RecurringJob.AddOrUpdate(() => JobService.LockTimeForRest(), "00 */2 * * *");
-            RecurringJob.AddOrUpdate(() => JobService.LockTimeForTeaMoring(), "30 09 * * *");
-            RecurringJob.AddOrUpdate(() => JobService.LockTimeForTeaAfternoon(), "00 13 * * *");
-            RecurringJob.AddOrUpdate(() => JobService.LockTimeForTeaEving(), "00 19 * * *");
+            RecurringJob.AddOrUpdate(() => JobService.LockTimeForRest(), "00 */2 * * *", TimeZoneInfo.Local);
+            RecurringJob.AddOrUpdate(() => JobService.LockTimeForTeaMoring(), "30 09 * * *", TimeZoneInfo.Local);
+            RecurringJob.AddOrUpdate(() => JobService.LockTimeForTeaAfternoon(), "00 13 * * *", TimeZoneInfo.Local);
+            RecurringJob.AddOrUpdate(() => JobService.LockTimeForTeaEving(), "00 19 * * *",TimeZoneInfo.Local);
         }
     }
 }
